@@ -1,0 +1,88 @@
+._3ItPy {
+  text-align: left;
+  border-radius: 24px;
+  width: 200px;
+  border: 1px solid #dfe1e5;
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+}
+._3ItPy:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+}
+
+._3ItPy::after {
+  content: '\1F50D';
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+._3ItPy input {
+  border: 0;
+  outline: none;
+  font-size: 16px;
+}
+
+._3ItPy ul {
+  list-style-type: none;
+  padding: 8px 0 0;
+  margin: 10px 0 0;
+  border-top: 1px solid gainsboro;
+  max-height: 200px;
+  overflow: auto;
+}
+
+._3ItPy ul::-webkit-scrollbar-thumb {
+  background-color: #4fba69;
+  border-radius: 4px;
+}
+
+._3ItPy ul::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,.1);
+}
+
+._3ItPy ul::-webkit-scrollbar {
+  border-radius: 4px;
+  width: 4px;
+}
+
+._3ItPy ul li {
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+._3ItPy ul li:hover {
+  background-color: aliceblue;
+}
+.ZRQpx {
+  display: flex;
+  margin-top: 100px;
+}
+
+.ZRQpx img {
+  width: 64px;
+  height: 64px;
+}
+
+.ZRQpx ._1ZCRS {
+  margin-right: 30px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  padding: 20px 20px 0;
+}
+
+.ZRQpx * {
+  margin-bottom: 10px;
+}
+
+._3jlGd, ._2N44R {
+  font-size: 18px;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+._3mvij {
+  text-align: center;
+}

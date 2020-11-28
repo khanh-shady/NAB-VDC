@@ -1,0 +1,57 @@
+.container {
+  text-align: left;
+  border-radius: 24px;
+  width: 200px;
+  border: 1px solid #dfe1e5;
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+}
+.container:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+}
+
+.container::after {
+  content: '\1F50D';
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.container input {
+  border: 0;
+  outline: none;
+  font-size: 16px;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 8px 0 0;
+  margin: 10px 0 0;
+  border-top: 1px solid gainsboro;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.container ul::-webkit-scrollbar-thumb {
+  background-color: #4fba69;
+  border-radius: 4px;
+}
+
+.container ul::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,.1);
+}
+
+.container ul::-webkit-scrollbar {
+  border-radius: 4px;
+  width: 4px;
+}
+
+.container ul li {
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.container ul li:hover {
+  background-color: aliceblue;
+}
