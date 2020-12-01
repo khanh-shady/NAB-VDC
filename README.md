@@ -2,7 +2,7 @@
 A frontend assignment for NAB written in ReactJS.
 
 # Deployment link
-https://htmlpreview.github.io/?https://github.com/khanh-shady/NAB/blob/master/dist/index.html
+https://htmlpreview.github.io/?https://github.com/khanh-shady/NAB-VDC/blob/main/dist/index.html
 
 # Introductory
 This is written purely in ReactJS, for state management I use a simple method that utilizes React hooks (a simplified version of my own library forked from https://github.com/andregardi/use-global-hook).
